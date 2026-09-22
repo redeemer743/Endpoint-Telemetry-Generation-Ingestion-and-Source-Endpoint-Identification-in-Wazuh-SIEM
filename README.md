@@ -14,8 +14,8 @@ The primary objective of this lab exercise is to simulate safe, permitted endpoi
 
 Across 19 collected telemetry screenshots from the Wazuh Dashboard , I verified that 53 distinct security events were ingested from the primary endpoint identified as GAL1LEO (Agent ID: 002, Agent Name: Windows_11, IP: 192.168.6.1).
 
-![Screenshot 1: Wazuh Dashboard overview — total event count (53), authentication failure/success summary, and top alert groups evolution chart](screenshots/1.png)
-![Figure 1: Wazuh Manager Web Console / DEB amd64](screenshots/1.png)
+![Screenshot 1: Wazuh Dashboard overview — total event count (53), authentication failure/success summary, and top alert groups evolution chart](screenshoots/1.png)
+![Figure 1: Wazuh Manager Web Console / DEB amd64](screenshoots/1.png)
 
 ![Screenshot 2: Wazuh Dashboard — alerts over time, top 5 alerts, top 5 rule groups, and top 5 PCI DSS requirements donut charts](screenshots/2.png)
 
