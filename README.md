@@ -1,4 +1,4 @@
-# Lab Report: Endpoint Telemetry Generation, Ingestion, and Source Endpoint Identification in Wazuh SIEM
+# Endpoint Telemetry Generation, Ingestion, and Source Endpoint Identification in Wazuh SIEM
 
 **Source Endpoint:** Windows 11 Enterprise / Pro (GAL1LEO / Agent Name: `Windows_11` / Agent ID: `002`)
 **SIEM Manager:** Wazuh Manager (192.168.6.133)
