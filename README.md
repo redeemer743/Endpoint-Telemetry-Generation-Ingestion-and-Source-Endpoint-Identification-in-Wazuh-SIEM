@@ -12,7 +12,7 @@
 
 The primary objective of this lab exercise is to simulate safe, permitted endpoint activities — including authentication attempts, process executions, service state modifications, and user account creation — on a Windows endpoint, verify that the resulting telemetry successfully streams to the centralized Wazuh SIEM Manager, and conclusively identify the source endpoint responsible for the activity.
 
-Across 19 collected telemetry screenshots from the Wazuh Dashboard https://192.168.6.133, I verified that 53 distinct security events were ingested from the primary endpoint identified as GAL1LEO (Agent ID: 002, Agent Name: Windows_11, IP: 192.168.6.1).
+Across 19 collected telemetry screenshots from the Wazuh Dashboard , I verified that 53 distinct security events were ingested from the primary endpoint identified as GAL1LEO (Agent ID: 002, Agent Name: Windows_11, IP: 192.168.6.1).
 
 ![Screenshot 1: Wazuh Dashboard overview — total event count (53), authentication failure/success summary, and top alert groups evolution chart](screenshots/screenshot-01-dashboard-overview.png)
 
