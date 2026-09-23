@@ -89,7 +89,7 @@ To ensure accurate threat attribution in a SOC context, all ingested logs were c
   - **Report Signature Summaries:** Rule ID `60608` (Summary event of the report's signatures, Level 4).
   - **Audit Failure Events:** Rule ID `60104` (Windows audit failure event, Level 5).
 
-![Screenshot 10: Event list showing repeated "Summary event of the report's signatures" (60608, level 4) entries, "Software protection service scheduled successfully" (60642), and "Windows audit failure event" (60104)](screenshots/screenshot-10-service-change-events.png)
+![Screenshot 10: Event list showing repeated "Summary event of the report's signatures" (60608, level 4) entries, "Software protection service scheduled successfully" (60642), and "Windows audit failure event" (60104)](screenshoots/10.png)
 
 ---
 
