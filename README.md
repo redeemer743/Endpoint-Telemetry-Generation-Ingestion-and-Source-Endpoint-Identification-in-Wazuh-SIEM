@@ -112,23 +112,18 @@ net user FakeTestAccount /add
   - **MITRE ATT&CK Mapping:** T1098 (Account Manipulation / Persistence).
 
 ![Screenshot CMD: Administrative Command Prompt on GAL1LEO showing `net user FakeTestAccount /add` executed successfully](screenshoots/cmd.png)
-![Screenshot 11: Administrative Command Prompt on GAL1LEO showing `net user FakeTestAccount /add` executed successfully](screenshoOts/11.png)
+![Screenshot 13: Administrative Command Prompt on GAL1LEO showing `net user FakeTestAccount /add` executed successfully](screenshoOts/13.png)
 
-![Screenshot 12: Event list showing Users Group Changed, User account changed, User account enabled or created, Domain Users Group Changed, and report signature summary events](screenshoots/12.png)
+![Screenshot 14: Event list showing Users Group Changed, User account changed, User account enabled or created, Domain Users Group Changed, and report signature summary events](screenshoots/14.png)
 
-![Screenshot 13: Document Details panel — accountExpires, displayName, homeDirectory, homePath, logonHour, oldUacValue, passwordLastSet fields for the account-creation event](screenshoots/13.png)
+![Screenshot 15: Document Details panel — accountExpires, displayName, homeDirectory, homePath, logonHour, oldUacValue, passwordLastSet fields for the account-creation event](screenshoots/15.png)
 
-![Screenshot 14: Document Details panel (continued) — passwordLastSet, primaryRid, profilePath, sAMAccountName (FakeTestAccount), scriptPath, subjectLogonId, subjectUserName, subjectUserSid, targetDomainName, targetSid, targetUserName fields](screenshoots/14.png)
+![Screenshot 16: Document Details panel (continued) — passwordLastSet, primaryRid, profilePath, sAMAccountName (FakeTestAccount), scriptPath, subjectLogonId, subjectUserName, subjectUserSid, targetDomainName, targetSid, targetUserName fields](screenshoots/16.png)
 
-![Screenshot 15: Document Details panel — targetUserName (FakeTestAccount), userAccessControl flags, userParameters, userWorkstations, system.channel (Security), computer (GAL1LEO), eventID (4720), and full event message ("A user account was created")](screenshoots/15.png)
+![Screenshot 17: Document Details panel — targetUserName (FakeTestAccount), userAccessControl flags, userParameters, userWorkstations, system.channel (Security), computer (GAL1LEO), eventID (4720), and full event message ("A user account was created")](screenshoots/17.png)
 
-![Screenshot 16: Document Details panel — full "A user account was created" message with Subject (Security ID, Account Name: GAL1LEO$, Account Domain: GAL1LEO), providerName, severityValue (AUDIT_SUCCESS), systemTime, task, threadID](screenshoots/16.png)
+![Screenshot 18: Document Details panel — full "A user account was created" message with Subject (Security ID, Account Name: GAL1LEO$, Account Domain: GAL1LEO), providerName, severityValue (AUDIT_SUCCESS), systemTime, task, threadID](screenshoots/18.png)
 
-![Screenshot 17: Document Details panel — decoder.name, id, input_type, location, manager.name, rule.description ("User account enabled or created"), rule.firedtimes, rule.gdpr, rule.gpg13, rule.groups, rule.hipaa, rule.id (60109), rule.level (8), rule.mail](screenshoots/17.png)
-
-![Screenshot 18: Document Details panel — rule.mitre.id (T1098), rule.mitre.tactic (Persistence), rule.mitre.technique (Account Manipulation), rule.nist_800_53, rule.pci_dss, rule.tsc, timestamp](screenshoots/18.png)
-
-![Screenshot 19: Document Details panel — location (EventChannel), manager.name (Wazuh-Server), rule.description, rule.firedtimes, rule.gdpr, rule.gpg13, rule.groups (windows, windows_security, adduser, account_changed), rule.hipaa, rule.id (60110), rule.level (8), rule.mail, rule.mitre.id (T1098), rule.mitre.tactic (Persistence), rule.mitre.technique (Account Manipulation), rule.nist_800_53, rule.pci_dss, rule.tsc](screenshoots/20.png)
 
 ---
 
