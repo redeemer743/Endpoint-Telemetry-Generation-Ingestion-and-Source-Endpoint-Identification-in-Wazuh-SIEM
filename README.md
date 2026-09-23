@@ -75,7 +75,7 @@ To ensure accurate threat attribution in a SOC context, all ingested logs were c
   - **Privilege Assignment Rule:** Rule ID `67028` (Special privileges assigned to new logon, Level 3).
   - **User Logoff Rule:** Rule ID `67023` (Non service account logged off, Level 3).
 
-![Screenshot 9: Event list showing Windows Workstation Logon Success (60118), Special privileges assigned to new logon (67028), software protection service scheduled (60642), Windows search service started (60668), SessionEnv notification error (60775), Windows System error event (61102), and Wazuh agent started (503)](screenshots/screenshot-09-logon-success-events.png)
+![Screenshot 9: Event list showing Windows Workstation Logon Success (60118), Special privileges assigned to new logon (67028), software protection service scheduled (60642), Windows search service started (60668), SessionEnv notification error (60775), Windows System error event (61102), and Wazuh agent started (503)](screenshoots/9.png)
 
 ---
 
