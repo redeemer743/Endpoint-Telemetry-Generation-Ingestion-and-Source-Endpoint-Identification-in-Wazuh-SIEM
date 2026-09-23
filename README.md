@@ -112,7 +112,7 @@ net user FakeTestAccount /add
   - **MITRE ATT&CK Mapping:** T1098 (Account Manipulation / Persistence).
 
 ![Screenshot CMD: Administrative Command Prompt on GAL1LEO showing `net user FakeTestAccount /add` executed successfully](screenshoots/cmd.png)
-![Screenshot 13: Administrative Command Prompt on GAL1LEO showing `net user FakeTestAccount /add` executed successfully](screenshoOts/13.png)
+![Screenshot 13: Administrative Command Prompt on GAL1LEO showing `net user FakeTestAccount /add` executed successfully](screenshoots/13.png)
 
 ![Screenshot 14: Event list showing Users Group Changed, User account changed, User account enabled or created, Domain Users Group Changed, and report signature summary events](screenshoots/14.png)
 
