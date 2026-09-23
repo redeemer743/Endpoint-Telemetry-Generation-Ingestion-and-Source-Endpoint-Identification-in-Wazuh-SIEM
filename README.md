@@ -54,17 +54,17 @@ To ensure accurate threat attribution in a SOC context, all ingested logs were c
   - **Authentication Package / Process:** Negotiate / `C:\Windows\System32\svchost.exe`.
   - **Regulatory Compliance Mapping:** PCI DSS 10.2.4, 10.2.5 | NIST 800-53 AU.14, AC.7.
 
-![Screenshot 3: Event list showing repeated "Logon Failure - Unknown user or bad password" entries (rule 60122, level 5) alongside logon success and privilege assignment events](screenshots/screenshot-03-logon-failure-events.png)
+![Screenshot 3: Event list showing repeated "Logon Failure - Unknown user or bad password" entries (rule 60122, level 5) alongside logon success and privilege assignment events](screenshoots/3.png)
 
-![Screenshot 4: Event list filtered/scrolled to show additional logon failure and report signature summary events](screenshots/screenshot-04-logon-failure-events-cont.png)
+![Screenshot 4: Event list filtered/scrolled to show additional logon failure and report signature summary events](screenshoots/4.png)
 
-![Screenshot 5: Document Details panel — raw event fields including agent.id, agent.ip, agent.name, authenticationPackageName, failureReason, ipAddress, logonProcessName, logonType, processId, processName](screenshots/screenshot-05-document-details-fields-1.png)
+![Screenshot 5: Document Details panel — raw event fields including agent.id, agent.ip, agent.name, authenticationPackageName, failureReason, ipAddress, logonProcessName, logonType, processId, processName](screenshoots/5.png)
 
-![Screenshot 6: Document Details panel (continued) — subjectUserSid, subjectUserName, targetDomainName, targetUserName, workstationName, and system.channel fields](screenshots/screenshot-06-document-details-fields-2.png)
+![Screenshot 6: Document Details panel (continued) — subjectUserSid, subjectUserName, targetDomainName, targetUserName, workstationName, and system.channel fields](screenshoots/6.png)
 
-![Screenshot 7: Document Details panel — system.channel (Security), computer (GAL1LEO), eventID (4625), full event message text ("An account failed to log on"), and subject/account domain details](screenshots/screenshot-07-document-details-message.png)
+![Screenshot 7: Document Details panel — system.channel (Security), computer (GAL1LEO), eventID (4625), full event message text ("An account failed to log on"), and subject/account domain details](screenshoots/7.png)
 
-![Screenshot 8: Document Details panel — rule metadata including rule.description ("Logon Failure - Unknown user or bad password"), rule.level (5), rule.groups (windows, windows_security, authentication_failed), and rule.hipaa/rule.id](screenshots/screenshot-08-document-details-rule-metadata.png)
+![Screenshot 8: Document Details panel — rule metadata including rule.description ("Logon Failure - Unknown user or bad password"), rule.level (5), rule.groups (windows, windows_security, authentication_failed), and rule.hipaa/rule.id](screenshoots/8.png)
 
 #### B. Successful Authentication & Special Privilege Assignments
 
